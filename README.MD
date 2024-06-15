@@ -12,6 +12,8 @@ pip install sckit-learn, tensorflow
 
 ### Running the program
 
+Before running your program u need to download dataset from kaggle: https://www.kaggle.com/datasets/galactus007/sms-smishing-collection-data-set
+
 To execute the program, run the following command in your terminal:
 ```bash
 python main.py
@@ -26,6 +28,7 @@ python main.py
 - message_label.py       # Script for labeling messages
 - remove_duplicates.py   # Script for removing duplicate messages
 - tokenik.py             # Script for creating features from tokenized messages
+- SMSSmishCollection.txt # Download dataset from https://www.kaggle.com/datasets/galactus007/sms-smishing-collection-data-set
 
 ### Description
  - classifiers.py: Contains definitions of various classifiers used for training the machine learning models.
