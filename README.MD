@@ -25,7 +25,7 @@ python main.py
 ├── main.py                # Main script to execute preprocessing and classification
 ├── message_label.py       # Script for labeling messages
 ├── remove_duplicates.py   # Script for removing duplicate messages
-└── tokenik.py              # Script for creating features from tokenized messages
+└── tokenik.py             # Script for creating features from tokenized messages
 
 ### Description
  - classifiers.py: Contains definitions of various classifiers used for training the machine learning models.
