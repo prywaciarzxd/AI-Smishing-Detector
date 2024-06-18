@@ -25,8 +25,6 @@ chmod 600 ~/.kaggle/kaggle.json
 ```
 ### Running the program
 
-Make sure to put SMSSmishCollection.txt in valid directory, check for info in Repository Structure.
-
 To execute the program, run the following command in your terminal:
 ```bash
 python main.py
