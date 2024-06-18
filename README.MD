@@ -9,6 +9,7 @@ This repository contains scripts for preprocessing SMS data to remove duplicates
 - Python 3.x
 - Required Python packages can be installed via:
 pip install sckit-learn, tensorflow, kaggle
+- Linux shell
 
 - Check the user base path using the command:
 ```bash
