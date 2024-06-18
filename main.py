@@ -3,8 +3,9 @@ import subprocess
 if __name__ == "__main__":
 
     #Pobieranie datasetu z kaggle
-    print("Uruchamianie remove_duplicates.py...")
+    print("Uruchamianie download_dataset.py...")
     subprocess.run(["python3", "download_dataset.py"])
+    print("download_dataset.py zakończony.\n")
     # Uruchomienie remove_duplicates.py
     print("Uruchamianie remove_duplicates.py...")
     subprocess.run(["python3", "remove_duplicates.py"])
