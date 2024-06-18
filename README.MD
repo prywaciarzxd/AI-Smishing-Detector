@@ -8,11 +8,23 @@ This repository contains scripts for preprocessing SMS data to remove duplicates
 
 - Python 3.x
 - Required Python packages can be installed via:
-pip install sckit-learn, tensorflow
+pip install sckit-learn, tensorflow, kaggle
 
+- Check the user base path using the command:
+```bash
+python -m site --user-base
+```
+- Add to path with command:
+```bash
+export PATH=$PATH:<specific_path>
+```
+- U can export this path to be used everytime when running system by adding above line to file ~/.bashrc
+- Then make dir in this location: ~/.kaggle move your json API file there and give it right permissions with command:
+```bash
+chmod 600 ~/.kaggle/kaggle.json
+```
 ### Running the program
 
-Before running your program u need to download dataset from kaggle: https://www.kaggle.com/datasets/galactus007/sms-smishing-collection-data-set
 Make sure to put SMSSmishCollection.txt in valid directory, check for info in Repository Structure.
 
 To execute the program, run the following command in your terminal:
